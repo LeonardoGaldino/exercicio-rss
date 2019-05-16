@@ -26,11 +26,11 @@ Para entregar o exercício, responda o [formulário de entrega](https://docs.goo
 
 | Passo | Completou? |
 | ------ | ------ |
-| 1 | **não** |
-| 2 | **não** |
-| 3 | **não** |
-| 4 | **não** |
-| 5 | **não** |
-| 6 | **não** |
-| 7 | **não** |
-| 8 | **não** |
+| 1 | **Sim** |
+| 2 | **Sim** |
+| 3 | **Sim** |
+| 4 | **Sim** |
+| 5 | **Sim** |
+| 6 | **Sim** |
+| 7 | **Sim** |
+| 8 | **Sim** |
