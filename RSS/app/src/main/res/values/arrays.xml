@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeds">
+        <item>Professor</item>
+        <item>Brasil</item>
+        <item>Ciencia e Saude</item>
+        <item>Tecnologia</item>
+    </string-array>
+</resources>

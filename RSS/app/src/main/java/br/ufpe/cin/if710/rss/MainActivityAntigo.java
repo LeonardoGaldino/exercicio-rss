@@ -28,7 +28,7 @@ public class MainActivityAntigo extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        conteudoRSS = findViewById(R.id.conteudoRSS);
+        //this.conteudoRSS = findViewById(R.id.conteudoRSS);
     }
 
     @Override
