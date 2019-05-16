@@ -2,7 +2,7 @@
 
 Esta tarefa envolve os conceitos de UI widgets, tarefas assíncronas, RecyclerView, Custom Adapters, Intents, Permissions. 
 Faça um clone ou fork deste projeto, siga os passos na ordem sugerida e marque mais abaixo, na sua resposta, quais os passos completados. 
-Para entregar o exercício, responda o [formulário de entrega](#) até 20/05/2019, às 23h59.
+Para entregar o exercício, responda o [formulário de entrega](https://docs.google.com/forms/d/e/1FAIpQLSd_hEJgNzd0gU3WGis5HGT8f-oQEINhyewvmuWOX34y7uebXA/viewform) até 20/05/2019, às 23h59.
 
   1. Faça o porting do código disponível em `MainActivityAntigo.java` para Kotlin, colocando o código correspondente na classe `MainActivity.kt`.
   2. Faça o carregamento do arquivo XML usando uma tarefa assíncrona, seja por meio de `AsyncTask`, seja por meio de `Anko` e `doAsync`. 
