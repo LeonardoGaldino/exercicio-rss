@@ -23,7 +23,7 @@ class FeedFragment : Fragment() {
         val root = inflater.inflate(R.layout.feed_fragment, container, false)
 
         viewManager = LinearLayoutManager(this.activity)
-        viewAdapter = RssAdapter(feed.toTypedArray<ItemRSS>())
+        viewAdapter = RssAdapter(this.activity!!, feed.toTypedArray<ItemRSS>())
 
         root.findViewById<RecyclerView>(R.id.conteudoRSS).apply {
             setHasFixedSize(true)

@@ -75,24 +75,6 @@ class MainActivity : AppCompatActivity() {
                 .commit()
     }
 
-    // Abre uma pagina web atraves de uma intent implicita
-    private fun openWebPage(titleView: TextView) {
-        val uriString = titleView.tag as String
-        val webURI: Uri = Uri.parse(uriString)
-        val intent = Intent(Intent.ACTION_VIEW, webURI)
-        if (intent.resolveActivity(packageManager) != null) {
-            startActivity(intent)
-        }
-    }
-
-    // Callback para o clique no titulo de uma noticia
-    fun onRssTitleClick(view: View) = when (view) {
-        is TextView -> this.openWebPage(view)
-        else -> {
-            System.out.println("Called onClick on wrong type of View!")
-        }
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
